@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F73C3E8883771B5D9BB46A2 /* Pods_FindFans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244ECEE0B789BCBDE949C4CC /* Pods_FindFans.framework */; };
+		2E7D5C4AF50EFF6BFFEFD9CB /* Pods_FindFansTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D0A1C4014BEC04E72779EC /* Pods_FindFansTests.framework */; };
 		9D027F791D2F095E0032748B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D027F781D2F095E0032748B /* AppDelegate.swift */; };
-		9D027F7B1D2F095E0032748B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D027F7A1D2F095E0032748B /* ViewController.swift */; };
 		9D027F7E1D2F095E0032748B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D027F7C1D2F095E0032748B /* Main.storyboard */; };
 		9D027F801D2F095E0032748B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D027F7F1D2F095E0032748B /* Assets.xcassets */; };
 		9D027F831D2F095E0032748B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D027F811D2F095E0032748B /* LaunchScreen.storyboard */; };
 		9D027F8E1D2F095E0032748B /* FindFansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D027F8D1D2F095E0032748B /* FindFansTests.swift */; };
 		9D027F991D2F095E0032748B /* FindFansUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D027F981D2F095E0032748B /* FindFansUITests.swift */; };
+		9D027FA71D2F0AC60032748B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D027FA61D2F0AC60032748B /* HomeViewController.swift */; };
+		9D027FA91D2F0AE40032748B /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D027FA81D2F0AE40032748B /* LogInViewController.swift */; };
+		9D027FAB1D2F0B030032748B /* ParseLogInHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D027FAA1D2F0B030032748B /* ParseLogInHelper.swift */; };
+		9D027FAD1D2F0B1A0032748B /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D027FAC1D2F0B1A0032748B /* ResetPasswordViewController.swift */; };
+		9D027FAF1D2F0B4A0032748B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D027FAE1D2F0B4A0032748B /* SignUpViewController.swift */; };
+		B4420957E0C3CDEA2CBD65AF /* Pods_FindFansUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5124AB16369934013B7C68 /* Pods_FindFansUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		244ECEE0B789BCBDE949C4CC /* Pods_FindFans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindFans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F01842EF358B0E725427585 /* Pods-FindFansTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindFansTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindFansTests/Pods-FindFansTests.release.xcconfig"; sourceTree = "<group>"; };
+		4CC82D6F8B7168E8F7560D1D /* Pods-FindFansTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindFansTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindFansTests/Pods-FindFansTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53D0A1C4014BEC04E72779EC /* Pods_FindFansTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindFansTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5975EC5A562D7B271CEDFC6E /* Pods-FindFansUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindFansUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindFansUITests/Pods-FindFansUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		67EDD641D8875B1B404F3EAC /* Pods-FindFansUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindFansUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindFansUITests/Pods-FindFansUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9D027F751D2F095D0032748B /* FindFans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindFans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D027F781D2F095E0032748B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D027F7A1D2F095E0032748B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D027F7D1D2F095E0032748B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D027F7F1D2F095E0032748B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D027F821D2F095E0032748B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +59,14 @@
 		9D027F941D2F095E0032748B /* FindFansUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindFansUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D027F981D2F095E0032748B /* FindFansUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFansUITests.swift; sourceTree = "<group>"; };
 		9D027F9A1D2F095E0032748B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D027FA61D2F0AC60032748B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9D027FA81D2F0AE40032748B /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		9D027FAA1D2F0B030032748B /* ParseLogInHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseLogInHelper.swift; sourceTree = "<group>"; };
+		9D027FAC1D2F0B1A0032748B /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		9D027FAE1D2F0B4A0032748B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AD6F0464CC7BDFBC6F4F9D06 /* Pods-FindFans.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindFans.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindFans/Pods-FindFans.debug.xcconfig"; sourceTree = "<group>"; };
+		E1A5D37C5A1E43C36EE0B0D5 /* Pods-FindFans.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindFans.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindFans/Pods-FindFans.release.xcconfig"; sourceTree = "<group>"; };
+		FF5124AB16369934013B7C68 /* Pods_FindFansUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindFansUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F73C3E8883771B5D9BB46A2 /* Pods_FindFans.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7D5C4AF50EFF6BFFEFD9CB /* Pods_FindFansTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4420957E0C3CDEA2CBD65AF /* Pods_FindFansUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A48DE76CBC36E0A3999EDFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD6F0464CC7BDFBC6F4F9D06 /* Pods-FindFans.debug.xcconfig */,
+				E1A5D37C5A1E43C36EE0B0D5 /* Pods-FindFans.release.xcconfig */,
+				4CC82D6F8B7168E8F7560D1D /* Pods-FindFansTests.debug.xcconfig */,
+				3F01842EF358B0E725427585 /* Pods-FindFansTests.release.xcconfig */,
+				5975EC5A562D7B271CEDFC6E /* Pods-FindFansUITests.debug.xcconfig */,
+				67EDD641D8875B1B404F3EAC /* Pods-FindFansUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D4250DB84DBC2DA27D6D9B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				244ECEE0B789BCBDE949C4CC /* Pods_FindFans.framework */,
+				53D0A1C4014BEC04E72779EC /* Pods_FindFansTests.framework */,
+				FF5124AB16369934013B7C68 /* Pods_FindFansUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9D027F6C1D2F095D0032748B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				9D027F8C1D2F095E0032748B /* FindFansTests */,
 				9D027F971D2F095E0032748B /* FindFansUITests */,
 				9D027F761D2F095D0032748B /* Products */,
+				2A48DE76CBC36E0A3999EDFF /* Pods */,
+				3D4250DB84DBC2DA27D6D9B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +146,11 @@
 			isa = PBXGroup;
 			children = (
 				9D027F781D2F095E0032748B /* AppDelegate.swift */,
-				9D027F7A1D2F095E0032748B /* ViewController.swift */,
+				9D027FAC1D2F0B1A0032748B /* ResetPasswordViewController.swift */,
+				9D027FA61D2F0AC60032748B /* HomeViewController.swift */,
+				9D027FAE1D2F0B4A0032748B /* SignUpViewController.swift */,
+				9D027FA81D2F0AE40032748B /* LogInViewController.swift */,
+				9D027FAA1D2F0B030032748B /* ParseLogInHelper.swift */,
 				9D027F7C1D2F095E0032748B /* Main.storyboard */,
 				9D027F7F1D2F095E0032748B /* Assets.xcassets */,
 				9D027F811D2F095E0032748B /* LaunchScreen.storyboard */,
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D027F9D1D2F095E0032748B /* Build configuration list for PBXNativeTarget "FindFans" */;
 			buildPhases = (
+				CF7B27D515B6DF97764ECBB5 /* [CP] Check Pods Manifest.lock */,
 				9D027F711D2F095D0032748B /* Sources */,
 				9D027F721D2F095D0032748B /* Frameworks */,
 				9D027F731D2F095D0032748B /* Resources */,
+				CF76DD6306948CC2DA021E2C /* [CP] Embed Pods Frameworks */,
+				4EE294A9E6DED2AE563AA436 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D027FA01D2F095E0032748B /* Build configuration list for PBXNativeTarget "FindFansTests" */;
 			buildPhases = (
+				067E3D31BB577190D8227BF7 /* [CP] Check Pods Manifest.lock */,
 				9D027F851D2F095E0032748B /* Sources */,
 				9D027F861D2F095E0032748B /* Frameworks */,
 				9D027F871D2F095E0032748B /* Resources */,
+				BE9139EFF122D5B2DA146C86 /* [CP] Embed Pods Frameworks */,
+				D06230EB6ED5533B56B48C82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D027FA31D2F095E0032748B /* Build configuration list for PBXNativeTarget "FindFansUITests" */;
 			buildPhases = (
+				C84C16DE30371172A7FFB182 /* [CP] Check Pods Manifest.lock */,
 				9D027F901D2F095E0032748B /* Sources */,
 				9D027F911D2F095E0032748B /* Frameworks */,
 				9D027F921D2F095E0032748B /* Resources */,
+				B62D17D608F20B1507F780D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +311,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		067E3D31BB577190D8227BF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4EE294A9E6DED2AE563AA436 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindFans/Pods-FindFans-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B62D17D608F20B1507F780D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindFansUITests/Pods-FindFansUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9139EFF122D5B2DA146C86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindFansTests/Pods-FindFansTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C84C16DE30371172A7FFB182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF76DD6306948CC2DA021E2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindFans/Pods-FindFans-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF7B27D515B6DF97764ECBB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D06230EB6ED5533B56B48C82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindFansTests/Pods-FindFansTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D027F711D2F095D0032748B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D027F7B1D2F095E0032748B /* ViewController.swift in Sources */,
+				9D027FAB1D2F0B030032748B /* ParseLogInHelper.swift in Sources */,
+				9D027FAF1D2F0B4A0032748B /* SignUpViewController.swift in Sources */,
+				9D027FA91D2F0AE40032748B /* LogInViewController.swift in Sources */,
+				9D027FAD1D2F0B1A0032748B /* ResetPasswordViewController.swift in Sources */,
 				9D027F791D2F095E0032748B /* AppDelegate.swift in Sources */,
+				9D027FA71D2F0AC60032748B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +586,7 @@
 		};
 		9D027F9E1D2F095E0032748B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6F0464CC7BDFBC6F4F9D06 /* Pods-FindFans.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FindFans/Info.plist;
@@ -410,6 +598,7 @@
 		};
 		9D027F9F1D2F095E0032748B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A5D37C5A1E43C36EE0B0D5 /* Pods-FindFans.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FindFans/Info.plist;
@@ -421,6 +610,7 @@
 		};
 		9D027FA11D2F095E0032748B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC82D6F8B7168E8F7560D1D /* Pods-FindFansTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FindFansTests/Info.plist;
@@ -433,6 +623,7 @@
 		};
 		9D027FA21D2F095E0032748B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F01842EF358B0E725427585 /* Pods-FindFansTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FindFansTests/Info.plist;
@@ -445,6 +636,7 @@
 		};
 		9D027FA41D2F095E0032748B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5975EC5A562D7B271CEDFC6E /* Pods-FindFansUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FindFansUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +648,7 @@
 		};
 		9D027FA51D2F095E0032748B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67EDD641D8875B1B404F3EAC /* Pods-FindFansUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FindFansUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +677,7 @@
 				9D027F9F1D2F095E0032748B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D027FA01D2F095E0032748B /* Build configuration list for PBXNativeTarget "FindFansTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +686,7 @@
 				9D027FA21D2F095E0032748B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D027FA31D2F095E0032748B /* Build configuration list for PBXNativeTarget "FindFansUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +695,7 @@
 				9D027FA51D2F095E0032748B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
